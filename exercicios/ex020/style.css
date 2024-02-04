@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*
+
+#   = id
+.   = class
+:   = pseudo-class
+::  = pseudo-element
+>   = children
+
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+ul {
+    color: gray;
+}
+a:visited {
+    color: darkblue;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:active {
+    color: green;
+}
+.especial::before {
+    content: "⇒ ";
+    color: gray;
+    font-weight: bold;
+}
+.especial::after {
+    content: " ⇐";
+    color: gray;
+    font-weight: bold;
+}
+.especial {
+    background-color: lightgray;
+}
+a::after {
+    content: " [Link]";
+    color: gray;
+}

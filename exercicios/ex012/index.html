@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-html.ico" type="image/x-icon">
+    <title>Exercício 12</title>
+</head>
+<body>
+    <h1>Conteúdo em HTML5</h1>
+    <hr>
+    <hr>
+    <h2>Inserindo Imagem Estática</h2>
+    <p>Exemplo de imagem:</p>
+    <abbr title="Exemplo de imagem estática"><img src="imagens/github-p.png" alt=""></abbr>
+    <abbr title="Exemplo de imagem estática"><img src="imagens/github-m.png" alt=""></abbr>
+    <hr>
+    <hr>
+    <h2>Inserindo Imagem Dinâmica</h2>
+    <p>Exemplo de imagem:</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="">
+    </picture>
+    <hr>
+    <hr>
+    <h2>Inserindo Vídeos - Primeira Forma</h2>
+    <p>Exemplo de vídeos:</p>
+    <abbr title="Exemplo de vídeo mp4"><video src="midia/video-720p.mp4" width="350" controls></video></abbr>
+    <abbr title="Exemplo de vídeo webm"><video src="midia/video-720p.webm" width="350" controls></video></abbr>
+    <abbr title="Exemplo de vídeo mkv"><video src="midia/video-720p.mkv" width="350" controls></video></abbr>
+    <h2>Inserindo Vídeo - Segunda Forma</h2>
+    <p>Exemplo de vídeo:</p>
+    <video preload="metadata" controls width="560" poster="imagens/foto-m.png" loop>
+        <source src="midia/video-720p.mp4" type="video/mp4">
+        <source src="midia/video-720p.mkv" type="video/mkv">
+        <source src="midia/video-720p.webm" type="video/webm">
+    </video>
+    <h2>Inserindo Vídeo - Terceira Forma (YouTube)</h2>
+    <p>Exemplo de vídeo:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=O9hw8249vYw_Sy4n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+    <hr>
+    <h2>Inserindo Áudio - Primeira Forma</h2>
+    <p>Exemplo de áudio:</p>
+    <audio src="midia/big-10-track-tribe.mp3" controls></audio>
+    <h2>Inserindo Àudio - Segunda Forma</h2>
+    <p>Exemplo de áudio:</p>
+    <audio preload="metadata" controls>
+        <source src="midia/big-10-track-tribe.mp3" type="audio/mpeg">
+        <source src="midia/big-10-track-tribe.ogg" type="audio/ogg">
+        <source src="midia/big-10-track-tribe.wav" type="auido/wav">
+    </audio>
+</body>
+</html>

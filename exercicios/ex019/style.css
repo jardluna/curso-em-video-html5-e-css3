@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*
+    id em HTML = # em CSS (só pode um elemnto)
+    class em HTML = . em CSS (pode vários elementos)
+    obs: por recomendação da w3c, deve-se usar somente 1(um) elemento id por arquivo HTML. No demais, usar class
+*/
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    color: #1e402f;
+}
+
+#principal { /* # = seletor com id */ /*h1*/
+    text-align: center;
+    color: #1e402f;
+}
+
+.principal { /* . = seletor com class*/ /*h1*/
+    text-align: center;
+    color: white;
+    background-color: #3c805e;
+}
+
+h2 {
+    color: #3c805e;
+}
+
+.basico { /* . = seletor com class*/ /*h2*/
+    color: #3c805e;
+    font-weight: bold;
+}
+
+.intermediario { /* . = seletor com class*/ /*h2*/
+    color: #80783c;
+    font-weight: bold;
+}
+
+.avançado { /* . = seletor com class*/ /*h2*/
+    color: #803c3c;
+    font-weight: bold;
+}
+
+.destaque { /* . = seletor em class*/
+    background-color: #c5c56070;
+}

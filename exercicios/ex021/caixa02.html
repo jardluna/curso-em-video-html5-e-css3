@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 21</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        #tema {
+            text-align: center;
+        }
+        hr {
+            border-style: solid;
+            border-width: 1px;
+            color: black;
+            margin: 10px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        nav {
+            background-color: gray;
+            padding: 1px;
+            box-shadow: 2px -2px 2px 0px rgba(0, 0, 0, 0.4);
+            /*
+            primeiro px = movimento horizontal da sombra
+            segundo px  = movimento vertical da sombra
+            terceiro px = densidade da sombra
+            quarto px   = tamanho da sombra
+            box-shadow: inset   = sombreamento interno
+            box-shadow:         = sombreamento externo (por padrão, outset)
+            */
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: lightblue;
+            font-weight: bold;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 30px 5px 30px 30px;
+            box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.4);
+        }
+        article {
+            background-color: lightblue;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: gray;
+            text-align: end;
+        }
+        footer {
+            color: white;
+            background-color: black;
+            text-align: center;
+            padding: 5px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        .bola {
+            background-color: red;
+            margin: 20px auto;
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="tema">Grouping Tags</h1>
+    <hr>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section class="assuntos">
+            <p>Esporte Política Tecnologia</p>
+        </section>
+        <section class="noticias">
+            <article>
+                <h2>Notícia Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, labore sunt officiis corporis ipsam, inventore sint nesciunt, deserunt aliquam doloremque quo nisi quas commodi ab blanditiis expedita fugiat aspernatur beatae!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div class="bola"><A></A></div>
+</body>
+</html>
+<!--<div></div> = Box-level-->
+<!--<span></span> = Inline-level-->

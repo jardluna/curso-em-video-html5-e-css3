@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-html.ico" type="image/x-icon">
+    <title>Exercicio 9</title>
+</head>
+<body>
+    <h1>Trabalhando Com Listas</h1>
+    <hr>
+    <h2>Listas Ordenadas</h2>
+    <p>
+        Usamos a tag <code>&lt;li&gt;&lt;/li&gt;</code> de forma indentada a tag <code>&lt;ol&gt;&lt;/ol&gt;</code> para criar <mark style="background-color: lime;"><strong>Listas Ordenadas</strong></mark>. Obs: A partir do HTML5, o fechamento da tag <code>&lt;/li&gt;</code> é opcional.
+    </p>
+    <p>
+        Exemplo de código de <mark style="background-color: lime;"><strong>Lista Ordenada</strong></mark>:
+    </p>
+    <pre>
+        <code>
+&lt;body&gt;
+    &lt;ol&gt;
+        &lt;li&gt;Acordar&lt;/li&gt;
+        &lt;li&gt;Ligar para o João&lt;/li&gt;
+        &lt;li&gt;Tomar café&lt;/li&gt;
+        &lt;li&gt;Escovar os dentes&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/body&gt;
+        </code>
+    </pre>
+    <p>
+        Exemplo de <mark style="background-color: lime;"><strong>Lista Ordenada</strong></mark>:
+    </p>
+    <ol>
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <p>
+        As <mark style="background-color: lime;"><strong>Listas Ordenadas</strong></mark> tem como padrão marcadores numerados, porém podemos mudar os marcadores utilizando o parâmetro <code>type</code> dentro da tag <code>&lt;ol&gt;</code>. Os marcadores são: <code>type="1"</code> (lista numerada - padrão), <code>type="A"</code> (lista alfabética em maiúscula), <code>type="a"</code> (lista alfabética em minúscula), <code>type="I"</code> (lista em algarismo romano em maiúscula), <code>type="i"</code> (lista em algarismo romano em minúscula).
+    </p>
+    <p>
+        Exemplo de código de <strong><mark style="background-color: lime;">Lista Ordenada</mark></strong> com parâmetro <code>type</code>:
+    </p>
+    <pre>
+        <code>
+&lt;body&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt;Acordar&lt;/li&gt;
+        &lt;li&gt;Escovar os dentes'&lt;/li&gt;
+        &lt;li&gt;Fazer exercício&lt;/li&gt;
+        &lt;li&gt;Ir estudar&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/body&gt;
+        </code>
+    </pre>
+    <p>
+        Exemplo de <strong><mark style="background-color: lime;">Lista Ordenada</mark></strong> com parâmetro <code>type</code>:
+    </p>
+    <ol type="a">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Fazer exercício</li>
+        <li>Ir estudar</li>
+    </ol>
+    <p>
+        Podemos também determinar qual o valor inical do marcador, utilizando o parâmetro <code>start</code> dentro da tag <code>&lt;ol&gt;</code>.
+    </p>
+    <p>
+        Exemplo de código de <strong><mark style="background-color: lime;">Lista Ordenada</mark></strong> com parâmetro <code>start</code>:
+    </p>
+    <pre>
+        <code>
+&lt;body&gt;
+    &lt;ol start="4"&gt;
+        &lt;li&gt;Acordar&lt;/li&gt;
+        &lt;li&gt;Mexer no celuar&lt;/li&gt;
+        &lt;li&gt;Ir ao mercado&lt;/li&gt;
+        &lt;li&gt;Assistir TV&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/body&gt;
+        </code>
+    </pre>
+    <p>
+        Exemplo de <strong><mark style="background-color: lime;">Lista Ordenada</mark></strong> com parâmetro <code>start</code>:
+    </p>
+    <ol start="4">
+        <li>Acordar</li>
+        <li>Mexer no celular</li>
+        <li>Ir ao mercado</li>
+        <li>Assistir TV</li>
+
+    </ol>
+    <p>
+        E por fim, exemplo de código e de <mark style="background-color: lime;"><strong>Lista Ordenada</strong></mark> com parâmetro <code>type</code> e <code>start</code>:
+    </p>
+    <pre>
+        <code>
+&lt;body&gt;
+    &lt;ol type="I" start="3"&gt;
+        &lt;li&gt;Acordar&lt;/li&gt;
+        &lt;li&gt;Tomar banho&lt;/li&gt;
+        &lt;li&gt;Passear com o cachorro&lt;/li&gt;
+        &lt;li&gt;Limpar a casa&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/body&gt;
+        </code>
+    </pre>
+    <ol type="I" start="3">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Passear com o cachorro</li>
+        <li>Limpar a casa</li>
+    </ol>
+    <h2>Listas Não Ordenadas</h2>
+    <p>
+        Usamos a tag <code>&lt;li&gt;&lt;/li&gt;</code> de forma indentada a tag <code>&lt;ul&gt;&lt;/ul&gt;</code> para criar <mark><strong>Listas Não Ordenadas</strong></mark>. Obs: Novamente, a partir do HTML5, o fechamento da tag <code>&lt;/li&gt;</code> é opcional.
+    </p>
+    <p>
+        Exemplo de código de <mark><strong>Lista Não Ordenada</strong></mark>:
+    </p>
+    <pre>
+        <code>
+&lt;body&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Matemática&lt;/li&gt;
+        &lt;li&gt;Português&lt;/li&gt;
+        &lt;li&gt;História&lt;/li&gt;
+        &lt;li&gt;Biologia&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/body&gt;
+        </code>
+    </pre>
+    <p>
+        Exemplo de <mark><strong>Lista Não Ordenada</strong></mark>:
+    </p>
+    <ul>
+        <li>Matemática</li>
+        <li>Português</li>
+        <li>História</li>
+        <li>Biologia</li>
+    </ul>
+    <p>
+        As <mark><strong>Listas Não Ordenadas</strong></mark> tem como padrão marcadores de bolinha, porém também podemos mudar os marcadores utilizando o parâmetro <code>type</code> dentro da tag <code>&lt;ul&gt;</code>. Os marcadores são: <code>type="disc"</code> (uma bola totalmente preta - padrão), <code>type="circle"</code> (uma bola preta sem preenchimento), <code>type="square"</code> (um quadrado totalmente preto).
+    </p>
+    <p>
+        Exemplo de código de <mark><strong>Lista Ordenada</strong></mark> com parâmetro <code>type</code>:
+    </p>
+    <pre>
+        <code>
+&lt;body&gt;
+    &lt;ul type="circle"&gt;
+        &lt;li&gt;Educação Física&lt;/li&gt;
+        &lt;li&gt;Geografia&lt;/li&gt;
+        &lt;li&gt;Química&lt;/li&gt;
+        &lt;li&gt;Artes&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/body&gt;
+        </code>
+    </pre>
+    <p>
+        Exemplo de <mark><strong>Lista Não Ordenada</strong></mark> com parâmetro <code>type</code>:
+    </p>
+    <ul type="circle">
+        <li>Educação Física</li>
+        <li>Geografia</li>
+        <li>Química</li>
+        <li>Artes</li>
+    </ul>
+</body>
+</html>
