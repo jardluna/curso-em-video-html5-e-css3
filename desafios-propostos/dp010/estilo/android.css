@@ -65,9 +65,7 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 10px;
-    margin: 20px;
-    padding-left: px;
-    padding-right: px;
+    margin: 10px;
     font-weight: bold;
     transition-duration: 0.5s;
 }
@@ -81,7 +79,7 @@ nav a:hover {
 main {
     background-color: white;
     margin: 0px auto 40px auto;
-    max-width: 700px;
+    max-width: 750px;
     min-width: 250px;
     padding: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
