@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+div#container {
+    position: relative;
+    background-color: salmon;
+    border-radius: 10px;
+    max-width: 660px;
+    height: 415px;
+    margin: auto;
+}
+
+iframe#conteudo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /*
+    Pode ser aplicado, para que não haja quebra do vídeo no site
+    width: 91%;
+    height: 81%;
+    */
+}
