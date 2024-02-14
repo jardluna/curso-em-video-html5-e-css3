@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    width: 300px;
+    border-collapse: collapse;
+    border: 2px solid black;  
+}
+
+tr.titulo {
+    background-color: gray;
+    color: white;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+}

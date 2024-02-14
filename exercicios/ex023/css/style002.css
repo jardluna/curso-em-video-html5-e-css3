@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 300px;
+    height: 300px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center; /*Alinhamento Horizontal*/
+    vertical-align: middle; /*Alinhamento Vertical*/
+}
+
+/*.esquerda {
+    text-align: left;
+}
+.direita {
+    text-align: right;
+}
+#cima {
+    vertical-align: top;
+}
+#baixo {
+    vertical-align: bottom;
+}*/
+
+.esquerda {
+    text-align: right;
+}
+.direita {
+    text-align: left;
+}
+#cima {
+    vertical-align: bottom;
+}
+#baixo {
+    vertical-align: top;
+}
+
