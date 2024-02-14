@@ -9,6 +9,7 @@ table {
     border-bottom: 2px solid black;
     border-right: 2px solid black;
     border-collapse: collapse;
+    position: relative;
 }
 
 caption {
@@ -21,6 +22,12 @@ caption {
     font-size: 1.5em;
     font-variant: small-caps;
     padding: 8px;
+}
+
+thead th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(70, 70, 70);
 }
 
 thead, tfoot {
