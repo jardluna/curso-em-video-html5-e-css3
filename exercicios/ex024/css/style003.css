@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    width: 400px;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 250px;
+    border: 2px solid black;
+}
+
+p {
+    text-indent: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.primeira:hover {
+    font-weight: bold;
+    color: red;
+}
+
+a.segunda:hover {
+    font-weight: bold;
+    color: green;
+}
+
+a.terceira:hover {
+    font-weight: bold;
+    color: blue;
+}
+
+iframe {
+    border: 2px solid black;
+    width: 97vw;
+    height: 400px;
+    background-image: url(../images/fundo-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 97vw 67vh;
+}
