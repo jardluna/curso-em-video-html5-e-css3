@@ -15,22 +15,34 @@ h1 {
     text-align: center;
     font-variant: small-caps;
     border-radius: 420px;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 form {
     background-color: lightgray;
-    width: 25%;
+    width: 50%;
     margin: 20px auto;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     line-height: 2em;
+}
+
+form legend {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin: 0px 0px 0px 10px;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid rgb(108, 108, 108);
+    border-radius: 100px;
 }
 
 form label {
     font-weight: bold;
     font-variant: small-caps;
+    padding: 0px 0px 0px 5px;
 }
 
 form input {
@@ -44,7 +56,7 @@ p.observacao {
     font-size: 0.7em;
     font-variant: small-caps;
     line-height: 0.5em;
-    padding: 0px 0px 15px 0px;
+    padding: 0px 0px 15px 5px;
 }
 
 input.submit {

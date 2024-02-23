@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Formulário 4</title>
+</head>
+<body>
+    <h1>Teste de formulário - 4</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required autocomplete="name" placeholder="ex: Nome Sobrenome" minlength="5" maxlength="20" >
+            </p>
+            <p>
+                <label for="iemal">E-mail:</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="ex: usuário@email.com" maxlength="40">
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel" placeholder="ex: (xx)xxxx-xxxx" maxlength="15" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+                <p class="observacao">(Telefone: digite o DDD com parênteses e o hífen/traço)</p>
+                <!-- Estudar mais sobre RegEx (pattern="") -->
+            </p>
+        </fieldset>
+        <p>
+            <input class="submit" type="submit" value="Enviar">
+            <input class="reset" type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
