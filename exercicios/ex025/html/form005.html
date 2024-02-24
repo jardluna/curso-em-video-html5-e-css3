@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Formulário 5</title>
+</head>
+<body>
+    <h1>Teste de formulário - 5</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <input type="radio" name="sexo" id="isxmas" value="mas" checked>
+                <label for="isxmas">Masculino /</label>
+
+                <input type="radio" name="sexo" id="isxfem" value="fem">
+                <label for="isxfem">Feminino /</label>
+            </p>
+            <!-- No <input type="radio" name="" id="">, todos os names precisam ter o mesmo nome -->
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <!--<p>
+                <input type="checkbox" name="espbas" id="iespbas">
+                <label for="iespbas">Basquete /</label>
+            
+                <input type="checkbox" name="espfut" id="iespfut">
+                <label for="iespfut">Futebol /</label>
+            
+                <input type="checkbox" name="espnat" id="iespnat">
+                <label for="iespnat">Natação /</label>
+            
+                <input type="checkbox" name="espten" id="iespten">
+                <label for="iespten">Tênis /</label>
+
+                <input type="checkbox" name="espjud" id="iespjud">
+                <label for="iespjud">Judô /</label>
+
+                <input type="checkbox" name="espvol" id="iespvol">
+                <label for="iespvol">Volêi /</label>
+            </p>-->
+            <p>
+                <input type="checkbox" name="espbas" id="iespbas">
+                <label for="iespbas">Basquete</label> <br>
+            
+                <input type="checkbox" name="espfut" id="iespfut" checked>
+                <label for="iespfut">Futebol</label> <br>
+            
+                <input type="checkbox" name="espnat" id="iespnat">
+                <label for="iespnat">Natação</label> <br>
+            
+                <input type="checkbox" name="espten" id="iespten">
+                <label for="iespten">Tênis</label> <br>
+
+                <input type="checkbox" name="espjud" id="iespjud" checked>
+                <label for="iespjud">Judô</label> <br>
+
+                <input type="checkbox" name="espvol" id="iespvol">
+                <label for="iespvol">Volêi</label>
+            </p>
+        </fieldset>
+        <p>
+            <input class="submit" type="submit" value="Enviar">
+            <input class="reset" type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
