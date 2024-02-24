@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Formulário 7</title>
+</head>
+<body>
+    <h1>Teste de formulário - 7</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Select option/optgroup</legend>
+            <p class="observacao">Exemplo abaixo</p>
+            <div>
+                <label for="iestado">Estado:</label>
+                <select name="estado" id="iestado" required>
+                    <option value="" selected>---- Escolha ----</option>
+                    <optgroup label="Região Sudeste">
+                        <option value="ES">Espírito Santo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </optgroup>
+                    <optgroup label="Região Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                    </optgroup>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Datalist option</legend>
+            <p class="observacao">Exemplo abaixo</p>
+            <div>
+                <label for="iprofissao">Profissão:</label>
+                <input type="text" name="profissao" id="iprofissao" list="lstprofissao" required placeholder="digite sua profissão">
+                <datalist id="lstprofissao">
+                    <option value="ADM">Administrador</option>
+                    <option value="CONT">Contabilista</option>
+                    <option>Desenvolvedor</option>
+                    <option>Professor</option>
+                </datalist>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Textarea</legend>
+            <p class="observacao">Exemplo abaixo</p>
+            <div>
+                <label for="imensagem">Mensagem:</label><br>
+                <textarea name="mensagem" id="imensagem" cols="50" rows="10" required minlength="1" maxlength="3000" placeholder="digite sua mensagem"></textarea>
+                <p class="observacao">(máximo de 3000 caracteres)</p>
+            </div>
+        </fieldset>
+        <div>
+            <input class="submit" type="submit" value="Enviar">
+            <input class="reset" type="reset" value="Limpar">
+        <div>
+    </form>
+</body>
+</html>
