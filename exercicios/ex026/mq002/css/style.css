@@ -20,9 +20,5 @@ h1 {
     color: white;
     text-shadow: 2px 2px 0px navy;
     padding: 10px;
-}
-
-p {
-    color: white;
-    padding: 10px;
+    text-align: center;
 }
