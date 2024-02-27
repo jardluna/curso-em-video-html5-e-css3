@@ -49,14 +49,14 @@ main section div#imagem {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 35%;
+    height: 40%;
     width: 100%;
     transition: width .3s, height .3s;
 }
 
 main section div#formulario {
     display: block;
-    height: 65%;
+    height: 60%;
     width: 100%;
     padding: 10px;
     text-align: justify;
