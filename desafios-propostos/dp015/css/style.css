@@ -38,31 +38,32 @@ main section#login {
     height: 500px;
     width: 250px;
     overflow: hidden;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 main section div#imagem {
     display: block;
     background-color: #5f2c82;
     background-image: url(../images/image-login.jpg);
-    background-position: center bottom;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50%;
-    width: 250px;
+    height: 35%;
+    width: 100%;
+    transition: width .3s, height .3s;
 }
 
 main section div#formulario {
     display: block;
+    height: 65%;
+    width: 100%;
     padding: 10px;
+    text-align: justify;
 }
 
 main section div#formulario h1 {
     text-align: center;
     font-variant: small-caps;
-    padding: 0px 0px 10px 0px;
-}
-
-main section div#formulario p {
-    text-align: justify;
     padding: 0px 0px 10px 0px;
 }
