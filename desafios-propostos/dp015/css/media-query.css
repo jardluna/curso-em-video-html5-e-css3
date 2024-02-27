@@ -3,7 +3,7 @@
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(90deg, #5f2c82, #49a09d);
+        background-image: linear-gradient(360deg, #5f2c82, #49a09d);
     }
 
     main section#login {
@@ -26,7 +26,7 @@
 /* DESKTOP */
 @media screen and (min-width: 992px) and (max-width: 1280px) {
     body {
-        background-image: linear-gradient(90deg, #5f2c82, #49a09d);
+        background-image: linear-gradient(360deg, #5f2c82, #49a09d);
     }
 
     main section#login {
@@ -49,7 +49,7 @@
 /* GRANDES TELAS */
 @media screen and (min-width: 1280px) {
     body {
-        background-image: linear-gradient(270deg, #5f2c82, #49a09d);
+        background-image: linear-gradient(360deg, #5f2c82, #49a09d);
     }
 
     main section#login {
