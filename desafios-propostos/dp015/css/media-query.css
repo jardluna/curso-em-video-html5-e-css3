@@ -3,18 +3,18 @@
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     main section#login {
-        width: 80vw;
+        width: 65vw;
     }
 
     main section#login div#imagem {
         float: left;
-        width: 40%;
+        width: 45%;
         height: 100%;
     }
 
     main section#login div#formulario {
         float: right;
-        width: 60%;
+        width: 55%;
         height: 100%;
     }
 }
@@ -26,7 +26,7 @@
     }
 
     main section#login {
-        width: 85vw;
+        width: 75vw;
     }
 
     main section#login div#imagem {
@@ -49,18 +49,18 @@
     }
 
     main section#login {
-        width: 90%;
+        width: 85vw;
     }
 
     main section#login div#imagem {
         float: right;
-        width: 50%;
+        width: 55%;
         height: 100%;
     }
 
     main section#login div#formulario {
         float: left;
-        width: 50%;
+        width: 45%;
         height: 100%;
     }
 }
