@@ -10,7 +10,7 @@
     <main>
         <section id="login">
             <div id="imagem">
-                [FOTO]
+                <!-- [IMAGEM] -->
             </div>
             <div id="formulario">
                 <h1>Login</h1>
@@ -18,7 +18,16 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
 
                 <form action="login.php" method="post">
-                    
+                    <div>
+                        <label for="iconta">E-mail:</label>
+                        <input type="email" name="conta" id="iconta" required placeholder="digite seu e-mail">
+                    </div>
+                    <div>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" required minlength="8" placeholder="digite sua senha">
+                    </div>
+                    <input id="submitEntrar" type="submit" value="Entrar">
+                    <input id="submitEsqueci" type="submit" value="Esqueci minha senha">
                 </form>
             </div>
         </section>
